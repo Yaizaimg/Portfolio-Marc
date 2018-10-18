@@ -1,0 +1,162 @@
+.menu{
+  position: fixed;
+  z-index: 1040;
+  width: 100%;
+}
+.logo{
+  padding: 1rem;
+  width: 6rem;
+  height: auto;
+}
+.nav-item{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.container{
+  position: absolute;
+  z-index: 1;
+  max-width: 100%;
+  padding: 0px;
+  background-color: #1B1B1B;
+}
+.content{
+  z-index: 10;
+  width:100%;
+  position: relative;
+}
+h3{
+  width: 25%;
+  font-weight: bold;
+  font-family: Helvetica,sans-serif;
+  font-variant: normal;
+  font-style: normal;
+  font-size: 22px;
+  text-shadow: 0px 0px 10px #000000;
+  color: #FFFFFF;
+  letter-spacing: 10px;
+  text-align: center;
+}
+body{
+  background-color: #1B1B1B;
+}
+.title{
+  border-bottom: 50%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-weight: bold;
+  line-height: 3;
+}
+p{
+  font-weight: lighter;
+  font-family: Helvetica,sans-serif;
+  font-variant: normal;
+  font-style: normal;
+  font-size: 22px;
+  color: #8F8F8F;
+}
+.description{
+  margin-bottom: 30%;
+  width: 45%;
+  border-top: 70%;
+}
+.about{
+  width: 45%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.firma{
+  padding-top: 5%;
+  width: 480px;
+  height: 100%;
+}
+.galery{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.foto{
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+.foto:hover{
+  cursor: pointer;
+}
+.perfil{
+  width: 10rem;
+  margin: 2rem;
+  margin-bottom: 8rem;
+  margin-top: 3rem;
+}
+.contact{
+  margin-top: 10%;
+
+}
+.fa {
+   font-size: 20px;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   border-radius: 50%;
+   line-height: 50px;
+   margin: 2rem;
+}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+    background: #6486CE;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+/* Instagram */
+.fa-instagram {
+        background: #12558C;
+        color: white;
+}
+
+/* Google */
+.fa-google {
+    background: #DB4F33;
+    color: white;
+  }
+.contactme{
+  width: 40%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.pad{
+  padding-top: 10%;
+}
+.imagesize{
+  width: 100%;
+}
+.modal-dialog{
+  max-width: 80%;
+}
+.btn_img{
+  background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      margin:2rem;;
+}
+.btn_img:hover{
+border: 1px solid;
+border-color: #FFF;
+background-color: rgba(255, 0, 0, 0.4);
+}
+.busqueda{
+  width: 22px;
+  height: 22px;
+}
