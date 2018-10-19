@@ -127,7 +127,7 @@ p{
   padding-top: 10%;
 }
 .imagesize{
-  width: 100%;
+  width: auto;
 }
 .modal-dialog{
   max-width: 80%;
