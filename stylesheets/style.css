@@ -229,6 +229,21 @@ h3{
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
+
+@media (max-width: 464px){
+  .view-first img{
+    width: 200px;
+    height: 150px;
+  }
+  .view .mask,
+  .view .content {
+    width: 200px;
+    height:150px;
+  }
+  div#all {
+    height: 1900px;
+  }
+}
 @media (max-width: 360px) {
 h3{
   font-size: 0.875rem;
@@ -240,4 +255,5 @@ h3{
 .fa{
   display: block;
 }
+
 }
