@@ -16,7 +16,9 @@
   position: absolute;
   z-index: 1;
   max-width: 100%;
-  padding: 0px;
+  padding-top: 6rem;
+  padding-left: 0px;
+  padding-right: 0px;
   background-color: #1B1B1B;
 }
 .content{
@@ -24,24 +26,13 @@
   width:100%;
   position: relative;
 }
-h3{
-  width: 25%;
-  font-weight: bold;
-  font-family: Helvetica,sans-serif;
-  font-variant: normal;
-  font-style: normal;
-  font-size: 22px;
-  text-shadow: 0px 0px 10px #000000;
-  color: #FFFFFF;
-  letter-spacing: 10px;
-  text-align: center;
-}
+
 body{
   background-color: #1B1B1B;
 }
 .title{
   border-bottom: 50%;
-  padding-top: 5%;
+  padding-top: 7rem;
   padding-bottom: 2%;
   font-weight: bold;
   line-height: 3;
@@ -65,7 +56,7 @@ p{
   margin-bottom: 1rem;
 }
 .firma{
-  padding-top: 5%;
+  padding-top: 4rem;
   width: 480px;
   height: 100%;
 }
@@ -159,4 +150,94 @@ background-color: rgba(255, 0, 0, 0.4);
 .busqueda{
   width: 22px;
   height: 22px;
+}
+
+.fondo{
+  background-image: url("../images/1.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+h3{
+  font-weight: bold;
+  font-family: Helvetica,sans-serif;
+  font-variant: normal;
+  font-style: normal;
+  font-size: 1.375rem;
+  text-shadow: 0px 0px 10px #000000;
+  color: #FFFFFF;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.navbar-nav{
+  text-align: right;
+}
+
+@media (max-width: 900px) {
+  .container{
+    max-width: 100%;
+  }
+  .firma{
+    padding-top: 6rem;
+  }
+  .description{
+    width: 70%;
+    margin-bottom: 10%;
+  }
+.about{
+    width: 80%;
+}
+}
+
+@media (max-width: 1406px) {
+  div#all {
+    height: 1820px;
+  }
+}
+@media (max-width: 928px) {
+  div#all {
+    height: 3276px;
+  }
+  .about{
+      width: 80%;
+  }
+  .contactme{
+    font-size: 0.875rem;
+    width: 70%;
+  }
+}
+@media (max-width: 596px) {
+h3{
+  margin-top: 2rem;
+  font-size: 0.875rem;
+}
+.firma{
+    width:18rem;
+    padding-top: 8rem;
+}
+.description{
+  font-size: 0.875rem;
+  width: 80%;
+}
+.about{
+  font-size: 0.875rem;
+  width: 70%;
+}
+
+.perfil{
+  width: 6rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+@media (max-width: 360px) {
+h3{
+  font-size: 0.875rem;
+}
+.contactme{
+  margin-top: 8rem;
+  margin-bottom: 5%;
+}
+.fa{
+  display: block;
+}
 }
