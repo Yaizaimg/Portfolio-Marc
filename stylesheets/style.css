@@ -49,6 +49,7 @@ p{
   margin-bottom: 30%;
   width: 45%;
   border-top: 70%;
+  color: #6E6E6E;
 }
 .about{
   width: 45%;
@@ -59,6 +60,7 @@ p{
   padding-top: 4rem;
   width: 480px;
   height: 100%;
+  opacity: 0.8;
 }
 .galery{
   margin-left: 1rem;
@@ -90,32 +92,15 @@ p{
    border-radius: 50%;
    line-height: 50px;
    margin: 2rem;
-}
-/* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+   color: white;
 }
 /* Add a hover effect if you want */
 .fa:hover {
-    background: #6486CE;
-}
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-/* Instagram */
-.fa-instagram {
-        background: #12558C;
-        color: white;
+background-color: rgba(0, 0, 0, 0.4);
+color: #FFF;
 }
 
-/* Google */
-.fa-google {
-    background: #DB4F33;
-    color: white;
-  }
+
 .contactme{
   width: 40%;
   margin-top: 5%;
@@ -127,7 +112,7 @@ p{
   padding-top: 10%;
 }
 .imagesize{
-  width: auto;
+  width: 100%;
 }
 .modal-dialog{
   max-width: 80%;
@@ -164,7 +149,7 @@ h3{
   font-variant: normal;
   font-style: normal;
   font-size: 1.375rem;
-  text-shadow: 0px 0px 10px #000000;
+  text-shadow: 0px 0px 10px #50E3C2;
   color: #FFFFFF;
   letter-spacing: 10px;
   text-align: center;
@@ -229,7 +214,7 @@ h3{
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
-
+}
 @media (max-width: 464px){
   .view-first img{
     width: 200px;
@@ -255,5 +240,29 @@ h3{
 .fa{
   display: block;
 }
-
+.rights{
+  width: 22.5rem;
+}
+}
+.rights{
+  font-size: 0.75rem;
+  width: 50%;
+  margin-top: 10rem;
+}
+button.hoverimage{
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Helvetica,sans-serif;
+  font-variant: normal;
+  font-style: normal;
+  font-size: 14px;
+  border: 0px;
+  color: #FFF;
+}
+.zoom{
+  width: 40px;
+  height: 40px;
 }
